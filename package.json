@@ -1,18 +1,18 @@
 {
-  "name": "auth0-logs-to-provider-s3",
-  "version": "0.0.1",
+  "name": "auth0-logs-to-provider",
+  "version": "0.2.4",
   "description": "This extension will take all of your Auth0 logs and export them to any provider from the list.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/borrell/auth0-logs-to-provider.git"
+    "url": "git+https://github.com/auth0-extensions/auth0-logs-to-provider.git"
   },
   "author": "auth0",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/borrell/auth0-logs-to-provider.git/issues"
+    "url": "https://github.com/auth0-extensions/auth0-logs-to-provider.git/issues"
   },
-  "homepage": "https://github.com/borrell/auth0-logs-to-provider.git#readme",
+  "homepage": "https://github.com/auth0-extensions/auth0-logs-to-provider.git#readme",
   "scripts": {
     "build": "npm run clean && npm run client:build && npm run extension:build",
     "clean": "rimraf dist",
